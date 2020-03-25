@@ -1,0 +1,24 @@
+{
+  "name": "some-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc --project tsconfig.dist.json",
+    "rimraf": "rimraf ./build",
+    "compile": "npm run rimraf && npm run tsc",
+    "start": "node ./build/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "module-alias": "^2.2.2",
+    "typescript-ioc": "^3.2.1",
+    "some-lib": "1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.31",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
+  }
+}

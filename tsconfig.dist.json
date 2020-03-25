@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.json",
+  "baseUrl": ".",                       /* Base directory to resolve non-absolute module names. */
+  "include": [
+    "src/app/**/*.ts", "src/app/**/*.json"
+  ]
+}
